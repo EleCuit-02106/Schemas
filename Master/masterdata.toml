@@ -12,9 +12,9 @@
 
   [masterdata.System]
 
-    [masterdata.System.Id]
-      [masterdata.System.Id.field]
-        id = "Id:ID:PKey"
+    [masterdata.System.IdDomain]
+      [masterdata.System.IdDomain.field]
+        id = "IdDomain:ID:PKey"
         begin = "int"
         end = "int"
         category = "string"

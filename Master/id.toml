@@ -1,6 +1,6 @@
 [id] # schema/master/id.toml
-  [id.Id]
-    name  = "Id"
+  [id.IdDomain]
+    name  = "IdDomain"
     begin = 1
     end   = 9999
   [id.Title]
