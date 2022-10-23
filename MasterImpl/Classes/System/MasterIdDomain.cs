@@ -30,8 +30,8 @@ namespace MD.System
             int begin,
             int end,
             string category,
-            string table
-        ) {
+            string table)
+        {
             this.id = id;
             this.begin = begin;
             this.end = end;

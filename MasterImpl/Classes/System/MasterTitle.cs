@@ -30,8 +30,8 @@ namespace MD.System
             int titleVersion,
             int priority,
             int openedAt,
-            int closedAt
-        ) {
+            int closedAt)
+        {
             this.id = id;
             this.titleVersion = titleVersion;
             this.priority = priority;

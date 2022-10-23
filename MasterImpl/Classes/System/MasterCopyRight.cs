@@ -36,8 +36,8 @@ namespace MD.System
             int closedAt,
             string line01,
             string line02,
-            string line03
-        ) {
+            string line03)
+        {
             this.id = id;
             this.copyRightVersion = copyRightVersion;
             this.openedAt = openedAt;
