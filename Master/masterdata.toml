@@ -1,0 +1,58 @@
+# masterdata の型定義
+# - 用途
+#   - 実データtoml の vaildation
+#   - MasterData型 .cs の自動生成
+# - 記法
+#   - [masterdata.<DIRECTORY_NAME>.<FILE_NAME>] (PascalCase)
+#   - 以下、<FIELD_NAME> = "<TYPE>:<ATTRIBUTES>""
+#   - ATTRIBUTES (複数ある場合は':'でつなげる)
+#       - ID: ID型、validationが実行される
+#       - PKey: Repositoryの主キーとして用いられる
+[masterdata]
+
+  [masterdata.System]
+
+    [masterdata.System.IdDomain]
+      [masterdata.System.IdDomain.field]
+        id = "IdDomain:ID:PKey"
+        begin = "int"
+        end = "int"
+        category = "string"
+        table = "string"
+
+    [masterdata.System.Title]
+      [masterdata.System.Title.field]
+        id = "Title:ID:PKey"
+        titleVersion = "int"
+        priority = "int"
+        openedAt = "int"
+        closedAt = "int"
+
+    [masterdata.System.CopyRight]
+      [masterdata.System.CopyRight.field]
+        id = "CopyRight:ID:PKey"
+        copyRightVersion = "int"
+        openedAt = "int"
+        closedAt = "int"
+        line01 = "string"
+        line02 = "string"
+        line03 = "string"
+
+
+  # [masterdata.EC]
+
+  #   [masterdata.EC.Stage]
+  #     [masterdata.EC.Stage.field]
+  #       id = "Stage:ID:PKey"
+  #       name = "string"
+  #       bgm = "string"
+  #       initialPosition1Players0 = "Vec2"
+  #       initialPosition2Players0 = "Vec2"
+  #       initialPosition2Players1 = "Vec2"
+  #       initialPosition3Players0 = "Vec2"
+  #       initialPosition3Players1 = "Vec2"
+  #       initialPosition3Players2 = "Vec2"
+  #       initialPosition4Players0 = "Vec2"
+  #       initialPosition4Players1 = "Vec2"
+  #       initialPosition4Players2 = "Vec2"
+  #       initialPosition4Players3 = "Vec2"
