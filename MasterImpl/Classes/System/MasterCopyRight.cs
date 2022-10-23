@@ -9,13 +9,13 @@ namespace MD.System
     public sealed class MasterCopyRight
     {
         #region property
-        public int Id { get => id; }
-        public int CopyRightVersion { get => copyRightVersion; }
-        public int OpenedAt { get => openedAt; }
-        public int ClosedAt { get => closedAt; }
-        public string Line01 { get => line01; }
-        public string Line02 { get => line02; }
-        public string Line03 { get => line03; }
+        public int Id => id;
+        public int CopyRightVersion => copyRightVersion;
+        public int OpenedAt => openedAt;
+        public int ClosedAt => closedAt;
+        public string Line01 => line01;
+        public string Line02 => line02;
+        public string Line03 => line03;
         #endregion
 
         #region field

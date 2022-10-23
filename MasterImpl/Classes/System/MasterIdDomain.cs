@@ -9,11 +9,11 @@ namespace MD.System
     public sealed class MasterIdDomain
     {
         #region property
-        public int Id { get => id; }
-        public int Begin { get => begin; }
-        public int End { get => end; }
-        public string Category { get => category; }
-        public string Table { get => table; }
+        public int Id => id;
+        public int Begin => begin;
+        public int End => end;
+        public string Category => category;
+        public string Table => table;
         #endregion
 
         #region field

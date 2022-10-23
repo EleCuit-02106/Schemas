@@ -9,11 +9,11 @@ namespace MD.System
     public sealed class MasterTitle
     {
         #region property
-        public int Id { get => id; }
-        public int TitleVersion { get => titleVersion; }
-        public int Priority { get => priority; }
-        public int OpenedAt { get => openedAt; }
-        public int ClosedAt { get => closedAt; }
+        public int Id => id;
+        public int TitleVersion => titleVersion;
+        public int Priority => priority;
+        public int OpenedAt => openedAt;
+        public int ClosedAt => closedAt;
         #endregion
 
         #region field
