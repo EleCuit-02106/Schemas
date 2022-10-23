@@ -1,0 +1,13 @@
+[id] # schema/master/id.toml
+  [id.IdDomain]
+    name  = "IdDomain"
+    begin = 1
+    end   = 9999
+  [id.Title]
+    name  = "Title"
+    begin = 10001
+    end   = 19999
+  [id.CopyRight]
+    name  = "CopyRight"
+    begin = 20001
+    end   = 29999
